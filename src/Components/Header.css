@@ -1,0 +1,43 @@
+.header {
+	background-color: black;
+	margin-bottom: -16px;
+}
+
+.headerMain	{	
+	justify-content: center;
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	background-image:  black;
+}
+
+.logoMain	{
+	background-image: url(./starwarslogo.jpeg);
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    size:  fixed;
+}
+
+.searchbarMain	{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.searchbarMain input	{
+	background-color: white;
+	border:  0;
+	border-radius: 12px;
+	font-size: 20px;
+	padding: 10px;
+	height: 20px;
+	width: 15vw;
+}
+
+.titleMain	{
+	text-align: center;
+	color: white;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+

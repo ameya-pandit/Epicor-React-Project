@@ -1,0 +1,119 @@
+.headerTiles{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    font-size: 10px;
+    row-gap: 7px;
+    column-gap: 7px;
+    padding: 8px;
+}
+
+.tileMain {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background-color: gray;
+	color: white;
+	padding-left:  10px;
+	padding-right: 10px;
+}
+
+.blackColor	{
+	color: darkslategray;
+}
+
+.genInfoTilePlanet	{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background-color: lightskyblue;
+	color: white;
+	padding-left:  20px;
+	padding-right: 20px;
+}
+
+.filmTile	{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background-color: darksalmon;
+	color: white;
+	padding-left:  20px;
+	padding-right: 20px;
+}
+
+.filmTileSecondary	{
+	max-width: 90%;
+	margin-top:  -30px;
+	margin-bottom: 20px;
+}
+
+.residentTile	{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background-color: darkseagreen;
+	color: white;
+	padding-left:  20px;
+	padding-right: 20px;
+}
+
+.resTileSecondary	{
+	max-width: 90%;
+	margin-top:  -30px;
+}
+
+.resTileSecondary:hover	{
+	color: black;
+}
+
+.speciesTile	{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background-color: mediumpurple;
+	color: white;
+	padding-left:  20px;
+	padding-right: 20px;
+}
+
+.starshipTile	{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background-color: orangered;
+	color: white;
+	padding-left:  20px;
+	padding-right: 20px;
+}
+
+.vehicleTile	{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background-color: yellowgreen;
+	color: white;
+	padding-left:  20px;
+	padding-right: 20px;
+}
+
+.secondaryText	{
+	margin-top: -25px;
+}
+
+.pText	{
+	margin:  10px;
+}
